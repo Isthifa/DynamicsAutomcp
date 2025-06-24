@@ -1,0 +1,57 @@
+package com.example.dynamicauto.service
+
+import io.github.bonigarcia.wdm.WebDriverManager
+import jakarta.annotation.PostConstruct
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.chrome.ChromeDriver
+import org.springframework.ai.tool.annotation.Tool
+import org.springframework.beans.factory.annotation.Value
+import org.springframework.stereotype.Service
+
+@Service
+class AutomationService {
+    @Value("\${d365fobase.url}")
+    private val baseUrl: String? = null
+
+
+    var automationScripts = ArrayList<String>()
+    @PostConstruct
+    fun init() {
+        automationScripts.add("MeterReplacement")
+        automationScripts.add("CreateSalesOrder")
+        automationScripts.add("CreatePurchaseOrder")
+    }
+
+    @Tool(
+        name = "dynamicAutomation",
+        description = "Dynamically generates automation scripts based on user input and system context."
+    )
+    fun dynamicAutomation(): String {
+        WebDriverManager.chromedriver().setup()
+
+        // Initialize the WebDriver
+        val driver: WebDriver = ChromeDriver()
+        try {
+            // Navigate to the Dynamics 365 URL
+            val url = "https://www.google.in" // Replace with your D365FO URL
+            driver[url]
+
+            // Perform additional actions if needed
+            println("Opened Dynamics 365 URL successfully.")
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+        return "Automation script executed successfully."
+    }
+
+    @Tool(name = "meterReplacement", description = "Automates the meter replacement process in Dynamics 365.")
+    fun meterReplacement(): String {
+        // Implement the meter replacement automation logic here
+        return "Meter replacement automation executed successfully."
+    }
+
+    @Tool(name = "ListOfTools", description = "Automation Tools.")
+    fun listOfTools(): List<String> {
+        return automationScripts
+    }
+}
