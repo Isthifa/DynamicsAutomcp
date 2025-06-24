@@ -1,0 +1,39 @@
+2025-06-24T21:50:18.547+05:30  INFO 15756 --- [DynamicAuto] [main] c.e.d.DynamicAutoApplicationTests        : Starting DynamicAutoApplicationTests using Java 21.0.6 with PID 15756 (started by Isthifa in C:\Users\Isthifa\OneDrive\Documents\java\DynamicAuto)
+2025-06-24T21:50:18.551+05:30  INFO 15756 --- [DynamicAuto] [main] c.e.d.DynamicAutoApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-06-24T21:50:20.880+05:30  INFO 15756 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-24T21:50:20.884+05:30  INFO 15756 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-24T21:50:20.887+05:30  INFO 15756 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-24T21:50:20.889+05:30  INFO 15756 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-24T21:50:21.824+05:30  INFO 15756 --- [DynamicAuto] [main] c.e.d.DynamicAutoApplicationTests        : Started DynamicAutoApplicationTests in 4.335 seconds (process running for 7.816)
+2025-06-24T21:52:08.740+05:30  INFO 17928 --- [DynamicAuto] [main] c.e.dynamicauto.DynamicAutoApplication   : Starting DynamicAutoApplication using Java 21.0.6 with PID 17928 (C:\Users\Isthifa\OneDrive\Documents\java\DynamicAuto\target\classes started by Isthifa in C:\Users\Isthifa\OneDrive\Documents\java\DynamicAuto)
+2025-06-24T21:52:08.745+05:30  INFO 17928 --- [DynamicAuto] [main] c.e.dynamicauto.DynamicAutoApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-06-24T21:52:10.460+05:30  INFO 17928 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-24T21:52:10.462+05:30  INFO 17928 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-24T21:52:10.464+05:30  INFO 17928 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-24T21:52:10.466+05:30  INFO 17928 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-24T21:52:10.950+05:30  INFO 17928 --- [DynamicAuto] [main] c.e.dynamicauto.DynamicAutoApplication   : Started DynamicAutoApplication in 3.468 seconds (process running for 5.354)
+2025-06-24T21:56:23.379+05:30  INFO 18636 --- [DynamicAuto] [main] c.e.dynamicauto.DynamicAutoApplication   : Starting DynamicAutoApplication v0.0.1-SNAPSHOT using Java 21.0.6 with PID 18636 (C:\Users\Isthifa\OneDrive\Documents\java\DynamicAuto\target\DynamicAuto-0.0.1-SNAPSHOT.jar started by Isthifa in C:\Users\Isthifa\OneDrive\Documents\java\DynamicAuto)
+2025-06-24T21:56:23.384+05:30  INFO 18636 --- [DynamicAuto] [main] c.e.dynamicauto.DynamicAutoApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-06-24T21:56:25.985+05:30  INFO 18636 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-24T21:56:25.988+05:30  INFO 18636 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-24T21:56:25.991+05:30  INFO 18636 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-24T21:56:25.993+05:30  INFO 18636 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-24T21:56:27.235+05:30  INFO 18636 --- [DynamicAuto] [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=Java SDK MCP Client, version=1.0.0]
+2025-06-24T21:56:27.759+05:30  INFO 18636 --- [DynamicAuto] [main] c.e.dynamicauto.DynamicAutoApplication   : Started DynamicAutoApplication in 6.263 seconds (process running for 8.771)
+2025-06-24T22:00:19.513+05:30  INFO 20996 --- [DynamicAuto] [main] c.e.d.DynamicAutoApplicationTests        : Starting DynamicAutoApplicationTests using Java 21.0.6 with PID 20996 (started by Isthifa in C:\Users\Isthifa\OneDrive\Documents\java\DynamicAuto)
+2025-06-24T22:00:19.516+05:30  INFO 20996 --- [DynamicAuto] [main] c.e.d.DynamicAutoApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-06-24T22:00:22.208+05:30  INFO 20996 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-24T22:00:22.213+05:30  INFO 20996 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-06-24T22:00:22.213+05:30  INFO 20996 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-24T22:00:22.215+05:30  INFO 20996 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-24T22:00:22.217+05:30  INFO 20996 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-24T22:00:23.000+05:30  INFO 20996 --- [DynamicAuto] [main] c.e.d.DynamicAutoApplicationTests        : Started DynamicAutoApplicationTests in 4.585 seconds (process running for 10.571)
+2025-06-24T22:01:52.211+05:30  INFO 13716 --- [DynamicAuto] [main] c.e.dynamicauto.DynamicAutoApplication   : Starting DynamicAutoApplication v0.0.1-SNAPSHOT using Java 21.0.6 with PID 13716 (C:\Users\Isthifa\OneDrive\Documents\java\DynamicAuto\target\DynamicAuto-0.0.1-SNAPSHOT.jar started by Isthifa in C:\Users\Isthifa\OneDrive\Documents\java\DynamicAuto)
+2025-06-24T22:01:52.218+05:30  INFO 13716 --- [DynamicAuto] [main] c.e.dynamicauto.DynamicAutoApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-06-24T22:01:55.245+05:30  INFO 13716 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable tools capabilities, notification: true
+2025-06-24T22:01:55.248+05:30  INFO 13716 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Registered tools: 2
+2025-06-24T22:01:55.249+05:30  INFO 13716 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable resources capabilities, notification: true
+2025-06-24T22:01:55.251+05:30  INFO 13716 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable prompts capabilities, notification: true
+2025-06-24T22:01:55.253+05:30  INFO 13716 --- [DynamicAuto] [main] o.s.a.m.s.a.McpServerAutoConfiguration   : Enable completions capabilities
+2025-06-24T22:01:55.719+05:30  INFO 13716 --- [DynamicAuto] [pool-2-thread-1] i.m.server.McpAsyncServer                : Client initialize request - Protocol: 2024-11-05, Capabilities: ClientCapabilities[experimental=null, roots=null, sampling=null], Info: Implementation[name=Java SDK MCP Client, version=1.0.0]
+2025-06-24T22:01:56.182+05:30  INFO 13716 --- [DynamicAuto] [main] c.e.dynamicauto.DynamicAutoApplication   : Started DynamicAutoApplication in 5.909 seconds (process running for 8.535)
