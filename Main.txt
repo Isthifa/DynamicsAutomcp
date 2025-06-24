@@ -1,0 +1,23 @@
+package com.example.dynamicauto
+
+import com.example.dynamicauto.service.AutomationService
+import org.springframework.ai.support.ToolCallbacks
+import org.springframework.ai.tool.ToolCallback
+import org.springframework.boot.SpringApplication
+import org.springframework.boot.autoconfigure.SpringBootApplication
+import org.springframework.context.annotation.Bean
+
+@SpringBootApplication
+open class DynamicAutoApplication {
+    @Bean
+    open fun toolCallbacks(automationService: AutomationService?): List<ToolCallback> {
+        return java.util.List.of(*ToolCallbacks.from(automationService))
+    }
+
+    companion object {
+        @JvmStatic
+        fun main(args: Array<String>) {
+            SpringApplication.run(DynamicAutoApplication::class.java, *args)
+        }
+    }
+}
